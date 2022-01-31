@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity"
+    android:orientation="vertical"
+    android:background="#1f1f1d">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/firstline"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:layout_centerHorizontal="true">
+
+        </View>
+        <View
+            android:id="@+id/secondline"
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="8dp"
+            android:background="#6F0000"
+            android:layout_toRightOf="@+id/firstline">
+
+        </View>
+        <View
+            android:id="@+id/thirdline"
+            android:layout_width="20dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="8dp"
+            android:background="#FF7700"
+            android:layout_toRightOf="@+id/secondline">
+
+        </View>
+        <View
+            android:id="@+id/fourthline"
+            android:layout_width="20dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="8dp"
+            android:background="#00FF00"
+            android:layout_toRightOf="@+id/thirdline">
+
+        </View>
+        <View
+            android:id="@+id/fifthline"
+            android:layout_width="20dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="8dp"
+            android:background="#8797FF"
+            android:layout_toRightOf="@+id/fourthline">
+
+        </View>
+        <View
+            android:id="@+id/sixthline"
+            android:layout_width="20dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="8dp"
+            android:background="#FF00E2"
+            android:layout_toRightOf="@+id/fifthline">
+
+        </View>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/mylogo"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/logo">
+
+        </ImageView>
+
+
+
+
+    </RelativeLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:id="@+id/fasttrack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="cursive"
+            android:text="Fast Track"
+            android:textColor="@color/white"
+            android:textSize="34sp">
+
+        </TextView>
+
+
+    </RelativeLayout>
+   </LinearLayout>
+
+</LinearLayout>

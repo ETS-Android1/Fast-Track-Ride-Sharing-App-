@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "101966917209",
+    "firebase_url": "https://fast-track-7d874-default-rtdb.firebaseio.com",
+    "project_id": "fast-track-7d874",
+    "storage_bucket": "fast-track-7d874.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101966917209:android:ce7943f469a9a117cecb48",
+        "android_client_info": {
+          "package_name": "com.example.quassain.fasttrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101966917209-bd6nbqs07kvegjsq481sho2kkhoeujfd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRGhz4FdsUoLYs3tjHRwpJnBhPl6BRfFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101966917209-bd6nbqs07kvegjsq481sho2kkhoeujfd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
